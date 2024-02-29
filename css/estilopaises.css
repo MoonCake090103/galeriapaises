@@ -1,0 +1,104 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+h1 {
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 500%;
+}
+p, li, footer{
+  font-family: Arial;
+  font-size: 100%;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+
+a.active {
+    color: red;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-repeat:repeat-y; /*no-repeat;*/
+    background-size:300px 230px;
+}
+
+p{
+  margin-left: 300px;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+}
+
+
+
+#Mexico{
+  color:green;
+}
+
+#Italia{
+  color:red;
+}
+
+#Australia{
+  color:blue;
+}
+
+#Noruega{
+  color:FireBrick;
+}
+#Tailandia{
+    color: aqua;
+}
+
+.banderaMexico{
+  background-image: url("../imagenes/banderamexico.png" );
+  }
+.banderaItalia{
+  background-image: url("../imagenes/banderaitalia.jpg");
+}
+.banderaTailandia{
+  background-image: url("../imagenes/banderatailandia.jpg");
+}
+.banderaNoruega{
+  background-image: url("../imagenes/banderanoruega.jpg");
+}
+.banderaAustralia{
+  background-image: url("../imagenes/banderaaustralia.jpg");
+}
